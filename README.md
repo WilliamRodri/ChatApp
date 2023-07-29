@@ -6,4 +6,4 @@ e a Vercel para hospedar o Sistema.
 Caso queria testar o sistema
 [Acesse o projeto! ](https://chatapp-phi-wheat.vercel.app/)
 
-<img src"https://i.imgur.com/tQz95YH.jpg">
+[img]https://i.imgur.com/tQz95YH.jpg[/img]
