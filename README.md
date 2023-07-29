@@ -7,3 +7,6 @@ Caso queria testar o sistema
 [Acesse o projeto! ](https://chatapp-phi-wheat.vercel.app/)
 
 [img]https://i.imgur.com/tQz95YH.jpg[/img]
+
+Projeto ainda em desenvolvimento, tenho muito oque corrigir
+e acrescentar!
