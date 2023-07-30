@@ -12,6 +12,10 @@ const ChatFooter = ({ chatId }) => {
   const handleSendMessage = (e) => {
     e.preventDefault();
 
+    if(message === ""){
+      return;
+    }
+
     db.collection("chats").doc(chatId).collection("messages").add({
       message: message,
       user: user.email,

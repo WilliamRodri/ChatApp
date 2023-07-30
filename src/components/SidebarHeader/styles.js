@@ -20,7 +20,8 @@ export const Avatar = styled.img`
 
 export const Options = styled.div`
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
 
     svg{
         width: 24px;
@@ -28,4 +29,14 @@ export const Options = styled.div`
         color: #54656f;
         cursor: pointer;
     }
+`;
+
+export const Ul = styled.ul`
+    &:hover{
+        background-color: black;
+    }
+`;
+
+export const Li = styled.li`
+    cursor: pointer;
 `;

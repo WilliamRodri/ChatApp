@@ -5,4 +5,5 @@ export const Container = styled.div`
     max-width: 415px;
     border-right: 1px solid #ddd;
     height: 100vh;
+    background-color: ${props => props.theme.colors.terceira};
 `;

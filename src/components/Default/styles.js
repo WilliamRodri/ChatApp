@@ -17,8 +17,8 @@ export const Container = styled.div`
     }
 `;
 
-export const Title = styled.h1`
-    text-align: center;
+export const Logo = styled.img`
+    width: 350px;
 `;
 
 export const Info = styled.span`

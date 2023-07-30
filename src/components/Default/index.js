@@ -1,12 +1,10 @@
 import React from 'react'
 import * as C from "./styles";
-import { MdMessage } from "react-icons/md";
-
+import Logo from "../../static/logo_semfundo.png";
 const Default = () => {
   return (
     <C.Container>
-        <MdMessage />
-        <C.Title>Chat App</C.Title>
+        <C.Logo src={Logo} />
         <C.Info>
             Agora você pode envia e receber mensagens online!
         </C.Info>

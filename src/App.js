@@ -6,6 +6,9 @@ import Loading from "./components/Loading";
 import Sidebar from "./components/Sidebar";
 import * as C from "./styles/app";
 import Chat from "./components/Chat";
+import { ToastContainer } from "react-toastify";
+import { ThemeProvider } from "styled-components";
+import light from "./styles/themes/light";
 
 export default function App() {
 
@@ -25,9 +28,13 @@ export default function App() {
     if (!user) return <Login />;
 
     return (
-        <C.Container>
-            <Sidebar setUserChat={setUserChat} userChat={userChat} />
-            <Chat userChat={userChat} />
-        </C.Container>
+        <ThemeProvider theme={light}>
+            <C.Container>
+                <Sidebar setUserChat={setUserChat} userChat={userChat} />
+                <Chat userChat={userChat} />
+                <ToastContainer />
+            </C.Container>
+        </ThemeProvider>
+
     );
 }
